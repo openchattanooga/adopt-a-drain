@@ -1,10 +1,30 @@
 
-document.addEventListener("DOMContentLoaded", load, false);
+// if(typeof document.addEventListener  == 'undefined'){
+//   // Fix for IE8
+//   document.attachEvent("onload", load);  
+// }
+// else{
+//   document.addEventListener("DOMContentLoaded", load, false);
+// }
+$(document).ready(function() {
+    //DOM has loaded, put your code here
+    load();
+
+    $('#tos_link').click(function(){
+      // console.log('hide');
+      $('#tos').addClass('hide').addClass('fade');
+    }, function(){
+      // console.log('show');
+      $('#tos').removeClass('hide').removeClass('fade');
+    });
+
+});
+
 
 function load() {
 
-  var current_lat = 35.0455556;
-  var current_long = -85.3097222;
+  var current_lat = 35.045694;
+  var current_long =  -85.309685;
  
   var locationMarker;
   // Check to see if there is already a location.
@@ -27,13 +47,13 @@ function load() {
     mapTypeControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     maxZoom: 19,
-    minZoom: 13,
+    minZoom: 16,
     panControl: false,
     rotateControl: false,
     scaleControl: false,
     scrollwheel: true,
     streetViewControl: true,
-    zoom: 13,
+    zoom: 17,
     zoomControl: true
   };
 

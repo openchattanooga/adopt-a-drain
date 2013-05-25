@@ -83,7 +83,6 @@ GEM
     mime-types (1.19)
     multi_json (1.5.0)
     nested_form (0.3.1)
-    newrelic_rpm (3.5.5.38)
     nokogiri (1.5.6)
     nokogiri (1.5.6-x86-mingw32)
     orm_adapter (0.4.0)
@@ -179,12 +178,11 @@ PLATFORMS
 
 DEPENDENCIES
   arel
-  devise
+  devise (~> 2.2.0)
   fastercsv
   geokit
   haml (~> 3.2.0.alpha)
   http_accept_language
-  newrelic_rpm
   pg
   rails (~> 3.2)
   rails_admin

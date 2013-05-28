@@ -5,7 +5,7 @@ Claim responsibility for reporting problems with Storm Drains
 [gemnasium]: https://gemnasium.com/openoakland/adopt-a-drain
 
 ## <a name="screenshots"></a>Screenshot
-![Adopt-a-Siren](https://github.com/openoakland/adopt-a-drain/raw/master/screenshot.png "Adopt-a-Siren")
+![Adopt-a-Siren](https://github.com/yahtaa/adopt-a-drain/raw/master/screenshot.png "Adopt-a-Siren")
 
 ## <a name="demo"></a>Demo
 You can see a running version of the application at

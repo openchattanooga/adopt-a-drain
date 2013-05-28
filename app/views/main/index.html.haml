@@ -17,20 +17,24 @@
           = render :partial => "sidebar/search"
         - else
           = render :partial => "sidebar/combo_form"
+
+                
       #logos
         %a{:href => "http://openchattanooga.com/"}
           = image_tag "logos/oc_logo_horz.png", :width => '180px', :alt => t("sponsors.cfa"), :title => t("sponsors.cfa")
         %a{:href => "http://www.chattanooga.gov"}
           = image_tag "logos/city_of_chattanooga.jpg", :width => '90px', :alt => t("sponsors.city"), :title => t("sponsors.city")
 
-
       #feedback
         %br
         %br
         %br
+        %br
         %p
-          %a{:href => URI.escape("mailto:nneditch@oaklandnet.com?subject=#{t("titles.main", :thing => t("defaults.thing").titleize)} #{t("links.feedback").titleize}")}
+          .btn
+            %a{:href => URI.escape("mailto:nneditch@oaklandnet.com?subject=#{t("titles.main", :thing => t("defaults.thing").titleize)} #{t("links.feedback").titleize}")}
             = t("links.feedback")
+      
     .table-cell.map-container
       #map
         &nbsp;

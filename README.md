@@ -9,9 +9,9 @@ Claim responsibility for reporting problems with Storm Drains
 
 ## <a name="demo"></a>Demo
 You can see a running version of the application at
-[http://adopt-a-drain.herokuapp.com/][demo].
+[http://chattdrain.herokuapp.com/][demo].
 
-[demo]: http://adopt-a-drain.herokuapp.com/
+[demo]: http://chattdrain.herokuapp.com/
 
 ## <a name="installation"></a>Installation
 This application requires [Postgres](http://www.postgresql.org/) to be installed
